@@ -108,10 +108,56 @@ Representação gráfica:
 
 	- Por arquivo: ```git add CAMINHO_DO_ARQUIVO```
 
+
 ### Commit
 
 Registra/salva as modificações que foram incluídas no 'add'
 
-
 - Fazer o commit: ```git commit -m "Mensagem descrevendo o commit"```
+
+
+### Push
+
+Envia os commits locais para o servidor
+
+- Fazer o push: ```git push```
+
+
+### Pull
+
+Busca as atualizações do repositório para o ambiente local
+
+- Fazer o pull: ```git pull```
+
+
+### Merge
+
+Une a branch atual com outra branch
+
+- Fazer o merge: ```git merge NOME_DA_BRANCH```
+
+
+### Tag
+
+Cria uma "versão do código" estática
+
+Usado para versionar os projetos
+
+- Listar as tags: ```git tag```
+
+- Criar tag: ```git tag -a vNUMERO -m "DESCRICAO"```
+
+- Envia a tag: ```git push origin vNUMERO```
+
+
+## GitFlow
+
+É uma ideia de como usar e organizar as branches;
+
+É um fluxo de trabalho para o Git;
+
+É um padrão que muitas empresas adotam totalmente ou ao menos parciamente;
+
+Imagem que representa o fluxo:
+![GitFlow](https://lh3.googleusercontent.com/70jaEZnESXQ6SssU5uI4yO62JBz6xq2sNrrz8bW_ap2CuWUaQlbKs3j6NyRJnvcvYwAugkW8WzNJX21dZ2SMd9O_1TTpKZT-FsBkYSPy4rUSpJSo2C-WPTaLc2jQ8ancyj1TetXQ)
 
