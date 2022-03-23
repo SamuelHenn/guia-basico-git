@@ -17,6 +17,8 @@ Desempenho / Segurança / Flexibilidade;
 
 Compartilhar e organizar o código entre o time de desenvolvimento;
 
+Backup e facilidade em reverter alterações;
+
 
 ## Interfaces usadas
 
@@ -55,6 +57,8 @@ Podem ter custos;
 
 * Crie um projeto
 
+* Observação: É possível usar o Git apenas localmente na máquina, mas o normal é que fique hospedado em algum serviço.
+
 
 ### Clonar o repositório
 
@@ -68,6 +72,7 @@ Cria uma cópia de trabalho local do projeto;
 ```
 * Informe usuário e senha
 
+
 ### Criar uma branch de trabalho
 
 #### O que é uma branch
@@ -79,9 +84,34 @@ Branch significa “ramo”, ou seja, uma ramificação do seu código;
 Representação gráfica:
 ![Branches](https://lh4.googleusercontent.com/hDZ7C2NQmOEeApDyPXFfjEfJyyIcmI8AfA8m-8loF8I2QKNrn4_Mw_IQKzoyj7O6SoKi2h6vTrKwZV5GL2uTJKSx_Kz8hSEpLAuhp7R_kpUYlW4H0oQbM34zo3fOZDtFU2PPtPr3)
 
-- Lista as branches existentes: 'git branch'
 
-- Criar uma nova branch: 'git checkout -b NOME_DA_BRANCH'
+#### Comandos
 
-- Mudar de branch: 'git checkout NOME_DA_BRANCH'
+- Lista as branches existentes: ```git branch```
+
+- Criar uma nova branch: ```git checkout -b NOME_DA_BRANCH```
+
+- Mudar de branch: ```git checkout NOME_DA_BRANCH```
+
+
+### Status
+
+- Lista os arquivos que foram modificados: ```git status```
+
+
+### Add
+
+- Adiciona os arquivos modificados para serem comitados
+
+	- Todos: ```git add .```
+
+
+	- Por arquivo: ```git add CAMINHO_DO_ARQUIVO```
+
+### Commit
+
+Registra/salva as modificações que foram incluídas no 'add'
+
+
+- Fazer o commit: ```git commit -m "Mensagem descrevendo o commit"```
 
