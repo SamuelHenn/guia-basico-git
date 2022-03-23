@@ -72,6 +72,10 @@ Cria uma cópia de trabalho local do projeto;
 ```
 * Informe usuário e senha
 
+Configurar o usuário:
+- Nome: ```git config --global user.name "NOME"```
+- Email: ```git config --global user.email "EMAIL"```
+
 
 ### Criar uma branch de trabalho
 
@@ -162,3 +166,6 @@ Usado para versionar os projetos
 Imagem que representa o fluxo:
 ![GitFlow](https://lh3.googleusercontent.com/70jaEZnESXQ6SssU5uI4yO62JBz6xq2sNrrz8bW_ap2CuWUaQlbKs3j6NyRJnvcvYwAugkW8WzNJX21dZ2SMd9O_1TTpKZT-FsBkYSPy4rUSpJSo2C-WPTaLc2jQ8ancyj1TetXQ)
 
+
+### Referência:
+[Documentação Atlassian](https://www.atlassian.com/br/git/tutorials/what-is-version-control)
