@@ -43,7 +43,45 @@ Podem ter custos;
 
 ### Windows
 
-	[Exe padrão para instalação](https://github.com/git-for-windows/git/releases/download/v2.35.1.windows.2/Git-2.35.1.2-64-bit.exe)
+- [Exe padrão para instalação](https://github.com/git-for-windows/git/releases/download/v2.35.1.windows.2/Git-2.35.1.2-64-bit.exe)
 
-## Criar um repositório
+
+## Agora vamos ver as principais funções na prática
+
+
+### Criar um repositório
+
+* Crie uma conta no [GitLab](https://gitlab.com/users/sign_in)
+
+* Crie um projeto
+
+
+### Clonar o repositório
+
+
+Cria uma cópia de trabalho local do projeto;
+
+* Abra o terminal
+* Navegue até a pasta desejada
+```bash
+	git clone URL_DO_REPOSITÓRIO
+```
+* Informe usuário e senha
+
+### Criar uma branch de trabalho
+
+#### O que é uma branch
+
+Branch significa “ramo”, ou seja, uma ramificação do seu código;
+
+É usado para fazer modificações no código, sem afetar o código principal;
+
+Representação gráfica:
+![Branches](https://lh4.googleusercontent.com/hDZ7C2NQmOEeApDyPXFfjEfJyyIcmI8AfA8m-8loF8I2QKNrn4_Mw_IQKzoyj7O6SoKi2h6vTrKwZV5GL2uTJKSx_Kz8hSEpLAuhp7R_kpUYlW4H0oQbM34zo3fOZDtFU2PPtPr3)
+
+- Lista as branches existentes: 'git branch'
+
+- Criar uma nova branch: 'git checkout -b NOME_DA_BRANCH'
+
+- Mudar de branch: 'git checkout NOME_DA_BRANCH'
 
