@@ -32,7 +32,7 @@ Podem ter custos;
 
 - GitHub - Muito usado no "mundo open source"
 - GitLab - Tem mais recursos de CI/CD e gerenciamento de tarefas
-- GitBucket - Tem mais recursos de CI/CD e gerenciamento de tarefas
+- BitBucket - Tem mais recursos de CI/CD e gerenciamento de tarefas
 
 
 ## Instalando
@@ -40,7 +40,7 @@ Podem ter custos;
 ### Linux 
 
 ```bash
-	sudo apt-get install git-all
+	sudo apt-get install git
 ```
 
 ### Windows
